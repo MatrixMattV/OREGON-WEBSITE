@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: url("pexels-franssy-acosta-16904540.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 100px;
+}
+
+h2 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 26px;
+    user-select: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px 16px;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.main-content {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+    color: #fff;
+}
+
+.main-content h1 {
+    font-size: 44px;
+    max-width: 600px;
+}
+
+.main-content p {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    max-width: 600px;
+
+}
+
+.main-content button {
+    font-size: 24px;
+    outline: none;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 8px;
+    margin-top: 20px;
+    background: darkgreen;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: .5px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.main-content button:hover {
+    background: #fff;
+    color: darkgreen;
+ }
